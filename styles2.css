@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgb(70, 226, 70);
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav {
+    display: inline-block;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header nav ul li {
+    margin: 0 1em;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid red;
+}
+
+  main {
+    padding: 1em;
+  }
+  
+  section h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  section .profile-picture {
+    float: left;
+    margin-right: 1em;
+  }
+
+  .profile-img {
+    float: left;
+    width: 30%;
+    height: auto;
+  }
+
+  #profile-image {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .about-text {
+    float: right;
+    width: 65%;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  
+  .picture-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .picture-gallery img {
+    margin: 1em;
+    width: 200px;
+  }
+  
+  form {
+    background-color: #f2f2f2;
+    padding: 1em;
+    border-radius: 1em;
+    margin-top: 1em;
+  }
+  
+  form label,
+  form input,
+  form textarea {
+    display: block;
+    margin-bottom: 1em;
+    width: 100%;
+  }
+  
+  form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    padding: 1em;
+    width: 50%;
+    cursor: pointer;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white;
+    color: green;
+  }
+  
+  #contact-me-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  footer {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
